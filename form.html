@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content:space-between;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color:black;
+            
+        }
+        .login-form-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: aqua;
+            /* border: 1px solid salmon; */
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 2px solid blueviolet    ; */
+            width: 40%;
+        }
+        .login-form input{
+            
+           margin-top: 10px;
+        }
+        .title{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .result{
+            background-color: rgb(53, 31, 193);
+            
+            
+
+        }
+        .Link{
+            background-color: rgba(0, 8, 255, 0.167);
+            word-spacing: 50px;
+            
+            
+            
+        }
+        
+         
+        
+           
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="Link">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <a class="log">Login</a>
+    </nav>
+
+    <section class="login-form-container">
+        <form class="login-form">
+            <h3 class="title">Please Login</h3>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="Your Password" required>
+            <input class="result" type="submit" value="Login">
+        </form>
+    </section>
+</body>
+
+</html>
